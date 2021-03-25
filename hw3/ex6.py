@@ -1,5 +1,5 @@
 def int_func(string):
-    return string.capitalize()
+    return chr(ord(string[0]) - 32) + string[1:]
 
 
 string = input("Введите строку из слов, разделённых пробелом: ")
